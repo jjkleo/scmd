@@ -3,14 +3,13 @@ package com.cxytiandi.eureka_client;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
-import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @EnableDiscoveryClient
 @SpringBootApplication
-public class EurekaClientUserServiceApplication {
+public class EurekaClientArticleServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(EurekaClientUserServiceApplication.class, args);
+        SpringApplication.run(EurekaClientArticleServiceApplication.class, args);
     }
 
 }
